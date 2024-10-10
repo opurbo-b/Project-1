@@ -1,0 +1,58 @@
+header{
+    font-family: sans-serif;
+}
+    
+      .Contact {
+        font-weight: bold;
+        text-align: center;
+      }
+
+body {
+    background-color: rgba(24, 23, 23, 0.938);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar ul{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+}
+.navbar a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    ;
+}
+.navbar a:hover {
+    background-color: rgb(59, 57, 57);
+}
+.navbar li{
+   float: right; 
+}
+
+.container2 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    float: right;
+}
+
+.container1 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 60px;
+    float: right;
+}
+
+button {
+    text-align: center;
+    padding:4px;
+    margin: 5px
+}
