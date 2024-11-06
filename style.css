@@ -34,7 +34,7 @@ body {
 .navbar li{
    float: right; 
 }
-
+/* Made a grid with an image and text side by side */
 .container2 {
     display: grid;
     align-items: center;
@@ -42,7 +42,7 @@ body {
     column-gap: 10px;
     float: right;
 }
-
+/* Made a grid with an image and text side by side */
 .container1 {
     display: grid;
     align-items: center;
@@ -56,3 +56,6 @@ button {
     padding:4px;
     margin: 5px
 }
+.submission { background-color: rgba(24, 23, 23, 0.938);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
